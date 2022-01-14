@@ -1,0 +1,75 @@
+html {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color:rgb(90,170,255)
+}
+
+body {
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+    border-radius: 5px;
+    background: rgba(255,255,255,0.3);
+}
+
+#result-box {
+    height: 40%;
+    width: 95%;
+    text-align: right;
+}
+
+.d-pad {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+table {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    border: unset;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: transparent;
+}
+
+.memory {
+    width: 100%;
+    height: fit-content;
+    font-size: 1rem;
+    background-color: rgba(147, 182, 214, 0.5);
+}
+.memory:hover {
+    background-color: rgba(147, 182, 214, 0.2);
+}
+
+#clear-btn {
+    background-color: rgba(214, 147, 147, 0.5);
+}
+#clear-btn:hover {
+    background-color: rgba(214, 147, 147, 0.2);
+}
+
+#equal-btn {
+    background-color: rgba(147, 182, 214, 0.5);
+    height: 100%;
+}
+#equal-btn:hover {
+    background-color: rgba(147, 182, 214, 0.2);
+}
+
+.numbers {
+    width: 100%;
+    font-size:100%;
+    height: 100%;
+}
